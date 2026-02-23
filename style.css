@@ -221,6 +221,53 @@ li {
   white-space: nowrap;
 }
 
+/* ── People cards ────────────────────────── */
+
+.person {
+  display: flex;
+  gap: 26px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.person:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.person img {
+  width: 145px;
+  height: 160px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
+  flex-shrink: 0;
+}
+
+.person-info h3 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-size: 1.08em;
+  color: #1a2e42;
+}
+
+.person-role {
+  color: #888;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 9px;
+}
+
+.person-info p {
+  font-size: 0.96em;
+  line-height: 1.68;
+  color: #444;
+  margin: 0;
+}
+
 /* ── Honors list ──────────────────────────── */
 
 .honors-list {
